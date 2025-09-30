@@ -6,9 +6,21 @@
 /*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 04:48:42 by loopy             #+#    #+#             */
-/*   Updated: 2025/09/30 04:58:32 by loopy            ###   ########.fr       */
+/*   Updated: 2025/09/30 16:37:54 by loopy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+void	ft_bzero(void *str, size_t n)
+{
+	size_t	i;
+
+	i = 0;
+	while (n)
+	{
+		((char *)str)[i] = '\0';
+		i++;
+		n--;
+	}
+}
