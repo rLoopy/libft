@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 06:12:58 by loopy             #+#    #+#             */
-/*   Updated: 2025/09/30 17:34:03 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/01 17:28:09 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 	if (n == 0)
 		return (dest);
-	if ( d < s)
+	if (!dest && !src)
+		return (NULL);
+	if ( d <= s)
 	{
 		i = 0;
 		while (n)
