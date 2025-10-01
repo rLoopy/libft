@@ -14,21 +14,31 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	size_t	i;
-	void	*tampon;
+	char *d = (char *)dest;
+	char *s = (char *)src;
+	size_t i;
 
-	i = 0;
-	while (n)
+	if (n == 0)
+		return (dest);
+	if ( d < s)
 	{
-		((char *)tampon)[i] = ((char *)src)[i];
-		i++;
+		i = 0;
+		while (n)
+		{
+			d[i] = s[i];
+			i++;
+			n--;
+		}
 	}
-	i = 0;
-	while (n)
+	else 
 	{
-		((char *)dest)[i] = ((char *)tampon)[i]
-		i++;
+		i = n -1;
+		while (n)
+		{
+			d[i] = s[i];
+			i--;
+			n--;
+		}
 	}
 	return (dest);
-
 }
