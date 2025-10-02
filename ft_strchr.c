@@ -6,7 +6,7 @@
 /*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 05:07:29 by loopy             #+#    #+#             */
-/*   Updated: 2025/09/30 05:50:53 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/02 11:54:39 by loopy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ char	*ft_strchr(const char *str, int c)
 			return (&str[i]);
 		i++;
 	}
+	if (str[i] == c)
+		return (&str[i]);
 	return (NULL);
 }
 

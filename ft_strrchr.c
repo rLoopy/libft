@@ -6,7 +6,7 @@
 /*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 05:07:29 by loopy             #+#    #+#             */
-/*   Updated: 2025/09/30 05:21:00 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/02 17:58:35 by loopy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,10 @@ char	*ft_strrchr(const char *str, int c)
 	i = 0;
 	while (str[i])
 		i++;
-	i--;
 	while (i >= 0)
 	{
 		if (str[i] == c)
-			return (&str[i]);
+			return ((char *)&str[i]);
 		i--;
 	}
 	return (NULL);
