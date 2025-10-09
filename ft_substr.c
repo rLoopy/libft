@@ -6,7 +6,7 @@
 /*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 15:14:04 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/04 21:33:36 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/09 18:20:42 by loopy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,18 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	int i;
+	size_t i;
+	size_t max;
 	char *dest;
 
 	i = 0;
+	if (!s)
+		return (NULL);
+	max = ft_strlen(s);
+	if (start >= max)
+		return (ft_strdup(""));
+	if (start + len > max)
+		len = max - start;
 	dest = malloc(len + 1);
 	if (!dest)
 		return (NULL);
