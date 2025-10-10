@@ -20,6 +20,9 @@ char *ft_strnstr(const char *big, const char *little, size_t len)
 	
 	if (little[0] == '\0')
 		return ((char *)big);
-	while (big[i] );
+	while (big[i])
+	{
+		
+	}
 	
 }
