@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 06:23:12 by loopy             #+#    #+#             */
-/*   Updated: 2025/09/30 06:55:29 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/10 17:34:21 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,4 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	if (n == 0)
 		return (0);
 	return (s1[i] - s2[i]);
-
 }

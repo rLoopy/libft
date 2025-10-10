@@ -6,7 +6,7 @@
 /*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 18:18:18 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/08 14:25:28 by rrohrer          ###   ########.fr       */
+/*   Updated: 2025/10/10 17:33:52 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,4 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	dst[i] = '\0';
 	return (k + m);
-	
 }

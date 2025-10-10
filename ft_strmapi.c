@@ -6,11 +6,11 @@
 /*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 15:55:43 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/10 15:57:07 by rrohrer          ###   ########.fr       */
+/*   Updated: 2025/10/10 17:34:14 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	
 }

@@ -6,7 +6,7 @@
 /*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 06:12:58 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/01 17:28:09 by rrohrer          ###   ########.fr       */
+/*   Updated: 2025/10/10 17:32:39 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	size_t i;
+	size_t	i;
 
 	if (n == 0)
 		return (dest);
@@ -28,7 +28,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			n--;
 		}
 	}
-	else 
+	else
 	{
 		i = n -1;
 		while (n)
