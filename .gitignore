@@ -1,0 +1,25 @@
+# Fichiers commentés (versions d'apprentissage)
+*_commented.c
+
+# Fichiers de test temporaires
+test_*
+*_test.c
+
+# Fichiers compilés
+*.o
+*.a
+*.so
+*.dylib
+
+# Exécutables
+a.out
+test
+test_*
+
+# Fichiers de sauvegarde
+*~
+*.swp
+*.swo
+
+# Fichiers macOS
+.DS_Store
