@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 06:23:12 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:11:19 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 // attention: unsigned char sinon problemes avec valeurs negatives
 // return 0 si =, negatif si s1<s2, positif si s1>s2
 
-// #include <stdio.h>
-// #include <string.h>
-// int main(void)
-// {
-// 	printf("'hello' vs 'hello' (3): ft=%d | real=%d\n", ft_strncmp("hello", "hello", 3), strncmp("hello", "hello", 3));
-// 	printf("'hello' vs 'world' (3): ft=%d | real=%d\n", ft_strncmp("hello", "world", 3), strncmp("hello", "world", 3));
-// 	printf("'abc' vs 'abz' (3): ft=%d | real=%d\n", ft_strncmp("abc", "abz", 3), strncmp("abc", "abz", 3));
-// 	return (0);
-// }

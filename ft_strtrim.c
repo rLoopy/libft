@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/09 18:57:39 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:11:39 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 // attention end>start pour cas limites
 // j'utilise substr pour extraire le milieu
 
-// #include <stdio.h>
-// int main(void)
-// {
-// 	char *r1 = ft_strtrim("  hello  ", " ");
-// 	char *r2 = ft_strtrim("xxxhelloxxx", "x");
-// 	printf("'  hello  ' trim ' ': '%s'\n", r1);    // hello
-// 	printf("'xxxhelloxxx' trim 'x': '%s'\n", r2); // hello
-// 	free(r1);
-// 	free(r2);
-// 	return (0);
-// }

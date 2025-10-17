@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 13:02:01 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 16:03:30 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:10:44 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,3 @@ char	*ft_strdup(const char *s)
 // copie char par char
 // oublie pas de free apres!
 
-// #include <stdio.h>
-// #include <string.h>
-// int main(void)
-// {
-// 	char *ft = ft_strdup("hello");
-// 	char *real = strdup("hello");
-// 	printf("'hello': ft=%s | real=%s\n", ft, real);
-// 	free(ft);
-// 	free(real);
-// 	return (0);
-// }

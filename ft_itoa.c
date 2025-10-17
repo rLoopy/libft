@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 18:51:09 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:09:46 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,17 +63,4 @@ char	*ft_itoa(int n)
 // str[i--] = (n%10)+'0' puis n/=10
 // si negatif: str[0]='-' et je travaille avec -n
 
-// #include <stdio.h>
-// int main(void)
-// {
-// 	char *r1 = ft_itoa(42);
-// 	char *r2 = ft_itoa(-123);
-// 	char *r3 = ft_itoa(0);
-// 	printf("42 -> '%s'\n", r1);    // 42
-// 	printf("-123 -> '%s'\n", r2);  // -123
-// 	printf("0 -> '%s'\n", r3);     // 0
-// 	free(r1);
-// 	free(r2);
-// 	free(r3);
-// 	return (0);
-// }
+

@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 18:18:18 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/17 16:03:30 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:10:59 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 // copie src a partir de dst[i] jusqu'a size-1
 // return longueur totale tentee (dlen + slen)
 
-// #include <stdio.h>
-// int main(void)
-// {
-// 	char dest[10] = "hello";
-// 	size_t len = ft_strlcat(dest, "world", 10);
-// 	printf("Result: '%s', len: %zu\n", dest, len);  // hellowor, 10
-// 	return (0);
-// }
