@@ -6,7 +6,7 @@
 /*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 15:56:00 by rayanrohrer       #+#    #+#             */
-/*   Updated: 2025/10/15 17:40:56 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,3 +92,25 @@ char	**ft_split(char const *s, char c)
 	result[j] = NULL;
 	return (result);
 }
+
+// decoupe string en tableau de mots
+// count_words: compte les mots (transition delim->non-delim)
+// copy_word: malloc + copie un mot
+// free_all: libere tout si malloc fail (important!)
+// split: alloue tableau, remplit, NULL a la fin
+// gestion erreur = crucial sinon leaks
+
+// #include <stdio.h>
+// int main(void)
+// {
+// 	char **r = ft_split("hello world test", ' ');
+// 	int i = 0;
+// 	printf("Split 'hello world test' by ' ':\n");
+// 	while (r[i])
+// 	{
+// 		printf("  [%d]: %s\n", i, r[i]);
+// 		free(r[i++]);
+// 	}
+// 	free(r);
+// 	return (0);
+// }

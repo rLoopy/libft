@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 03:16:09 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/02 14:28:56 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/17 16:03:30 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,16 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
+
+// remplis n bytes de str avec la valeur c
+// cast en (char*) pour acceder byte par byte
+// tant que n>0: str[i]=c, i++, n--
+
+// #include <stdio.h>
+// int main(void)
+// {
+// 	char str[10] = "hello";
+// 	ft_memset(str, 'A', 3);
+// 	printf("Result: %s\n", str);  // AAAlo
+// 	return (0);
+// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loopy <loopy@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 14:35:59 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/13 17:18:10 by loopy            ###   ########.fr       */
+/*   Updated: 2025/10/17 16:03:30 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,16 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+// cherche little dans big (limite len bytes)
+// i parcourt big, j compare les chars
+// quand little[j]==\0: on a trouve!
+// return pointeur vers debut de little dans big
+
+// #include <stdio.h>
+// int main(void)
+// {
+// 	char *result = ft_strnstr("hello world", "world", 11);
+// 	printf("Found: %s\n", result);  // world
+// 	return (0);
+// }

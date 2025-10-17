@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
+/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 15:21:07 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/03 16:05:18 by rrohrer          ###   ########.fr       */
+/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,19 @@ int	ft_atoi(const char *str)
 	}
 	return (res * signe);
 }
+
+// string -> int
+// 1. skip espaces (32, 9-13)
+// 2. gere signe (+ ou -)
+// 3. convertit: res = res*10 + (str[i]-'0')
+// 4. applique signe a la fin
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// int main(void)
+// {
+// 	printf("'42': ft=%d | real=%d\n", ft_atoi("42"), atoi("42"));
+// 	printf("'-123': ft=%d | real=%d\n", ft_atoi("-123"), atoi("-123"));
+// 	printf("'  +456': ft=%d | real=%d\n", ft_atoi("  +456"), atoi("  +456"));
+// 	return (0);
+// }

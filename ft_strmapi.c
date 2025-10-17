@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
+/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 15:55:43 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/10 18:25:47 by rrohrer          ###   ########.fr       */
+/*   Updated: 2025/10/17 16:03:30 by rayanrohrer      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,23 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	dest[i] = '\0';
 	return (dest);
 }
+
+// applique fonction f a chaque char
+// f recoit index ET char
+// cree NOUVELLE string avec resultats
+// dest[i] = f(i, s[i])
+
+// #include <stdio.h>
+// char to_upper(unsigned int i, char c)
+// {
+// 	if (c >= 'a' && c <= 'z')
+// 		return (c - 32);
+// 	return (c);
+// }
+// int main(void)
+// {
+// 	char *r = ft_strmapi("hello", to_upper);
+// 	printf("'hello' to upper: %s\n", r);  // HELLO
+// 	free(r);
+// 	return (0);
+// }
