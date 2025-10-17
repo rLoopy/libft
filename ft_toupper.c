@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 04:58:47 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:11:53 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:18:54 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ int	ft_toupper(int c)
 	return (c);
 }
 
-
 // si minuscule -> -32 pour passer en maj
 // 'a'=97, 'A'=65 donc diff de 32
 // sinon je retourne direct
-

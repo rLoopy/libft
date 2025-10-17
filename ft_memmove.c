@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 06:12:58 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:06 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:06 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 // si dest <= src: copie de gauche a droite (normal)
 // si dest > src: copie de droite a gauche (i = n-1)
 // le sens de copie evite d'ecraser les donnees
-

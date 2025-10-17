@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 15:15:29 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:03 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:14:53 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,3 @@ void	*ft_memchr(const void *str, int c, size_t n)
 // parcourt byte par byte (unsigned char)
 // return pointeur vers la premiere occurrence
 // diff avec strchr: limite de n bytes (pas de \0)
-

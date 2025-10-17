@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/09 18:22:27 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:06 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:52 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,4 +44,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // malloc (len1 + len2 + 1) pour le \0
 // copie s1 puis s2
 // oublie pas le \0 final!
-

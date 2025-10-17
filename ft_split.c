@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 15:56:00 by rayanrohrer       #+#    #+#             */
-/*   Updated: 2025/10/17 21:10:32 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:36 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,3 @@ char	**ft_split(char const *s, char c)
 // free_all: libere tout si malloc fail (important!)
 // split: alloue tableau, remplit, NULL a la fin
 // gestion erreur = crucial sinon leaks
-
-

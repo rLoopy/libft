@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 18:51:09 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:46 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:14:48 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,3 @@ char	*ft_itoa(int n)
 // je remplis de DROITE a GAUCHE (i = len-1)
 // str[i--] = (n%10)+'0' puis n/=10
 // si negatif: str[0]='-' et je travaille avec -n
-
-

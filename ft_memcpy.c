@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 05:53:50 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:56 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:02 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 // unsigned char pour traiter byte par byte
 // attention: marche pas si dest et src overlap
 // pour overlap utiliser memmove
-
-

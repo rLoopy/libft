@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 12:09:42 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:10:11 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:21 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,3 @@ void	ft_putendl_fd(char *s, int fd)
 // comme putstr mais avec \n a la fin
 // ecrit string puis write("\n", 1)
 // pratique pour afficher ligne par ligne
-

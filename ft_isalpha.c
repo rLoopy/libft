@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 02:39:09 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:28 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:14:20 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,6 @@ int	ft_isalpha(int c)
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }
 
-
 // check si lettre (maj ou min)
 // entre 'A'-'Z' OU 'a'-'z'
 // return 1 si oui, 0 sinon
-
-

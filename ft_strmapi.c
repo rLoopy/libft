@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 15:55:43 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:06 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:17:15 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // f recoit index ET char
 // cree NOUVELLE string avec resultats
 // dest[i] = f(i, s[i])
-

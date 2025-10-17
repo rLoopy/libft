@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 15:21:07 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:06 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:13:56 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,4 +44,3 @@ int	ft_atoi(const char *str)
 // 2. gere signe (+ ou -)
 // 3. convertit: res = res*10 + (str[i]-'0')
 // 4. applique signe a la fin
-

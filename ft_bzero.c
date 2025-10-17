@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 04:48:42 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:09:06 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:14:03 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,3 @@ void	ft_bzero(void *str, size_t n)
 // comme memset mais avec '\0'
 // met n bytes a zero
 // simple: str[i]='\0' tant que n>0
-

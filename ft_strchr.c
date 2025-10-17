@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 05:07:29 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 16:04:14 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:41 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,4 +32,3 @@ char	*ft_strchr(const char *str, int c)
 // je parcours jusqu'a trouver ou arriver au \0
 // attention: faut check le \0 aussi apres la boucle!
 // return pointeur vers position ou NULL
-

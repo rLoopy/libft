@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 12:07:09 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:10:26 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:29 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,3 @@ void	ft_putstr_fd(char *s, int fd)
 // ecrit string s dans le fd
 // parcourt s et write chaque char
 // pas de \n a la fin
-

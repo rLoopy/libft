@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 18:18:18 by rrohrer           #+#    #+#             */
-/*   Updated: 2025/10/17 21:10:59 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:56 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,4 +41,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 // i = longueur actuelle de dst
 // copie src a partir de dst[i] jusqu'a size-1
 // return longueur totale tentee (dlen + slen)
-

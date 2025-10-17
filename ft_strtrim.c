@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/09 18:57:39 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:11:39 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:17:27 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 // end: je recule tant que s1[end] est dans set
 // attention end>start pour cas limites
 // j'utilise substr pour extraire le milieu
-

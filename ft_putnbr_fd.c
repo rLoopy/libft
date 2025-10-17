@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rayanrohrer <rayanrohrer@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rrohrer <rrohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 12:17:49 by loopy             #+#    #+#             */
-/*   Updated: 2025/10/17 21:10:15 by rayanrohrer      ###   ########.fr       */
+/*   Updated: 2025/10/17 21:15:25 by rrohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,3 @@ void	ft_putnbr_fd(int n, int fd)
 // si negatif: write("-") puis -nb
 // recursif: si nb>9 -> appel recursif avec nb/10
 // puis putchar du dernier chiffre (nb%10)+'0'
-
-
